@@ -1,0 +1,18 @@
+# Web App (Next.js)
+procrastino/node_modules
+procrastino/.next
+procrastino/out
+procrastino/.env*
+procrastino/coverage
+
+# Android App
+ProcrastiNO-Android/build
+ProcrastiNO-Android/app/build
+ProcrastiNO-Android/.gradle
+ProcrastiNO-Android/local.properties
+ProcrastiNO-Android/.idea
+ProcrastiNO-Android/*.iml
+
+# System
+.DS_Store
+Thumbs.db
