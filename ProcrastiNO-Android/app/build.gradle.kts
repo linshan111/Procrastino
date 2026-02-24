@@ -15,6 +15,9 @@ android {
         versionCode = 2
         versionName = "1.1"
         buildConfigField("String", "BASE_URL", "\"https://procrastino-xi.vercel.app\"")
+    }
+
+    buildTypes {
         release {
             isMinifyEnabled = false
         }
