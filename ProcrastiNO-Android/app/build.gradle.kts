@@ -12,13 +12,9 @@ android {
         applicationId = "com.procrastino.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
-
-        buildConfigField("String", "BASE_URL", "\"http://10.0.2.2:3000\"")
-    }
-
-    buildTypes {
+        versionCode = 2
+        versionName = "1.1"
+        buildConfigField("String", "BASE_URL", "\"https://procrastino-xi.vercel.app\"")
         release {
             isMinifyEnabled = false
         }
